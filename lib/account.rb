@@ -1,6 +1,7 @@
-class Account
+# frozen_string_literal: true
 
-  def initialize()
+class Account
+  def initialize
     @transation = []
     @transactions = [@transaction]
     @current_balance = 0
@@ -10,13 +11,13 @@ class Account
     @current_balance += amount
     @transaction = [date, amount, 0, @current_balance]
     @transactions.insert(0, @transaction)
-    return @current_balance
+    @current_balance
   end
 
   def withdraw(date, amount)
     @current_balance -= amount
     @transaction = [date, 0, amount, @current_balance]
     @transactions.insert(0, @transaction)
-    return @current_balance
+    @current_balance
   end
 end

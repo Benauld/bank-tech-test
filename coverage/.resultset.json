@@ -1,40 +1,13 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/benauld/Projects/bank-tech-test/spec/account_spec.rb": {
+      "/Users/benauld/Projects/bank-tech-test/spec/account_report_spec.rb": {
         "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
           1,
           1,
-          1,
-          1,
           null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
           1,
           1,
           1,
@@ -43,18 +16,33 @@
           1,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/benauld/Projects/bank-tech-test/lib/account_report.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
           null,
           null
         ]
       },
       "/Users/benauld/Projects/bank-tech-test/lib/account.rb": {
         "lines": [
-          1,
+          null,
           null,
           1,
-          5,
-          5,
-          5,
+          1,
+          6,
+          6,
+          6,
           null,
           null,
           1,
@@ -72,8 +60,53 @@
           null,
           null
         ]
+      },
+      "/Users/benauld/Projects/bank-tech-test/spec/account_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1582550539
+    "timestamp": 1582552426
   }
 }

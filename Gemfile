@@ -1,9 +1,11 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
 
 ruby '~>2.6.3'
 
 group :development, :test do
-  gem "rspec"
-  gem "simplecov"
-  gem "simplecov-console"
+  gem 'rspec'
+  gem 'simplecov'
+  gem 'simplecov-console'
 end
