@@ -4,7 +4,7 @@ Week 10 tech test
 
 Specification
 
-Requirements
+# Requirements
 
 You should be able to interact with your code via a REPL like IRB or the JavaScript console. (You don't need to implement a command line interface that takes input from STDIN.)
 Deposits, withdrawal.
@@ -23,6 +23,26 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 
-How to Test
+# How to Test
 
-How to Run
+tests run via RSPEC
+
+# How to Run
+
+# run from ther command line through IRB.
+
+require './lib/account'
+require './lib/account_report'
+
+# create a new account
+
+bens_account = Account.new
+
+# create transactions
+
+bens_account.deposit(01-02-2015, 500)
+bens_account.withdraw(02-02-2015, 100)
+
+# print the account statement
+
+bens_account.print
