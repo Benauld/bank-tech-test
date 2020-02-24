@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# account class with 3 methods - depost / withdraw and print
 class Account
   def initialize
     @transation = []

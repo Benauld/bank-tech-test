@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# account report class with 1 method for prinint accounts reports
 class AccountReport
   def initialize(transactions = [])
     @header = 'date || credit || debit || balance'
@@ -8,12 +9,11 @@ class AccountReport
 
   def print
     puts @header
-    if @transactions.length > 0
-      @transactions.each do |trans| 
-        puts "#{trans[0]}.00 || #{trans[1]}.00 || #{trans[2]}.00 || #{trans[3]}.00"
+    if !@transactions.empty?
+      @transactions.each do |t|
+        puts "#{t[0]}.00 || #{t[1]}.00 || #{t[2]}.00 || #{t[3]}.00"
       end
-    elsif
-      puts "no transactions"
+    else puts 'no transactions'
     end
   end
 end
