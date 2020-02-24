@@ -12,4 +12,11 @@ class Account
     @transactions.insert(0, @transaction)
     return @current_balance
   end
+
+  def withdraw(date, amount)
+    @current_balance -= amount
+    @transaction = [date, 0, amount, @current_balance]
+    @transactions.insert(0, @transaction)
+    return @current_balance
+  end
 end
