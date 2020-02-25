@@ -9,6 +9,10 @@ class AccountReport
 
   def print
     puts @header
+    print_line
+  end
+
+  def print_line
     if !@transactions.empty?
       @transactions.each do |t|
         puts "#{t[0]}.00 || #{t[1]}.00 || #{t[2]}.00 || #{t[3]}.00"
