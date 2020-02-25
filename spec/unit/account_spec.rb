@@ -11,7 +11,7 @@ describe Account do
       expect(subject.deposit('10-01-2012', 1000)) .to eq(1000)
     end
 
-    it 'can store multiple 
+    it 'can store multiple
     deposits and updates balance' do
       subject = Account.new
       subject.deposit('10-01-2012', 1000)
