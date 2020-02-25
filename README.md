@@ -46,3 +46,6 @@ bens_account.withdraw(02-02-2015, 100)
 # print the account statement
 
 bens_account.print
+
+![Screenshot 2020-02-25 at 08 59 40](https://user-images.githubusercontent.com/40060566/75231850-18c96800-57ae-11ea-9be5-7d7d2d516be0.png)
+
