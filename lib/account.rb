@@ -2,11 +2,11 @@
 
 # account class with 3 methods - depost / withdraw and print
 class Account
-  def initialize
+  def initialize(report = AccountReport.new)
     @transation = []
     @transactions = []
     @current_balance = 0
-    @report = AccountReport.new
+    @report = report
   end
 
   def deposit(date, amount)

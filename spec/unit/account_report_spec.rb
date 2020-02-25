@@ -11,8 +11,7 @@ describe AccountReport do
 
     it 'prints a single line when an account exists' do
       subject = AccountReport.new
-      expect { subject.print([['01-01-2015', 0, 1, 1]]) }.to
-      output(/01-01-2015/).to_stdout
+      expect { subject.print([['01-01-2015', 0, 1, 1]]) }.to output(/01-01-2015/).to_stdout
     end
   end
 end
