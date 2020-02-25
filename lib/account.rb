@@ -6,6 +6,7 @@ class Account
     @transation = []
     @transactions = []
     @current_balance = 0
+    @report = AccountReport.new
   end
 
   def deposit(date, amount)
@@ -23,7 +24,6 @@ class Account
   end
 
   def print
-    report = AccountReport.new(@transactions)
-    report.print
+    @report.print(@transactions)
   end
 end
