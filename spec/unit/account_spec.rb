@@ -21,7 +21,7 @@ describe Account do
       subject.deposit('10-01-2012', 1000)
       subject.withdraw('13-01-2012', 500)
       subject.deposit('14-01-2012', 1000)
-      expect { subject.print }.to output(/1000 || 1500/).to_stdout
+      expect { subject.print }.to output(/1500/).to_stdout
     end
   end
 end
